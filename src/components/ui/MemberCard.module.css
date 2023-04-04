@@ -1,0 +1,38 @@
+.profileCard {
+    width: 10rem;
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'LemonMilk';
+    vertical-align: middle;
+    border: 2px solid #b866fb;
+    border-radius: 1rem;
+    margin: 10% 5%;
+}
+
+.profilePicture img {
+    max-width: 100%;
+    border-radius: 10rem;
+}
+
+.cardName p {
+    margin: 0;
+}
+
+.name {
+    color: #8874f7;
+}
+
+.role {
+    font-size: 0.6rem;
+    color: #ec57fc;
+}
+
+@media screen and (max-width: 1375px) {
+    .profileCard {
+        margin: 10% 1%;
+    }
+}

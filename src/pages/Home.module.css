@@ -1,0 +1,123 @@
+.sectionTitle {
+    color: #ec57fc;
+    font-family: 'LemonMilk';
+}
+
+/******************************
+below is css for the landing big logo page
+******************************/
+
+.bigLogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigLogo img {
+    max-width: 100%;
+}
+
+.bounceArrow {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    height: 2rem;
+    width: 2rem;
+    background: url('https://static1.squarespace.com/static/5e78f290575a6321739eba41/t/5ec8625c6dad0e25fa5a8234/1590190684880/Arrow.png');
+    background-size: 100% auto;
+    -webkit-animation:bounce 1s infinite;
+    -moz-animation:bounce 1s infinite;
+    -o-animation:bounce 1s infinite;
+    animation:bounce 1s infinite;
+    transition: opacity 1s ease;
+}
+
+@-webkit-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     { bottom:30; }
+}
+  
+@-moz-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     { bottom:30; }
+}
+  
+@-o-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     { bottom:30; }
+}
+  
+@keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     { bottom:30; }
+}
+
+/******************************
+below is css for the about section
+******************************/
+
+.about {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.about p {
+    font-family: 'Varela';
+    width: 60%;
+}
+
+
+/******************************
+below is css for the members section
+******************************/
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'LemonMilk';
+}
+
+.members {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.teamPhoto {
+    width: 55%;
+    margin: 0 0 10% 0;
+    padding: 1%;
+    border: 1px solid #b866fb;
+    border-radius: 2rem;
+    
+}
+
+.teamPhoto img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width: 1030px) {
+    .members {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .teamPhoto {
+        width: 70%;
+    }
+}

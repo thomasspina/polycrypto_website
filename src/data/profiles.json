@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Hubert Moisset",
+        "role": "Président",
+        "image": "hubert.jpeg"
+    },
+
+    {
+        "name": "Théo Manac'h",
+        "role": "Trésorier",
+        "image": "theo.jpeg"
+    },
+
+    {
+        "name": "Thomas Spina",
+        "role": "VP Crypto",
+        "image": "thomass.jpeg"
+    },
+
+    {
+        "name": "Thomas Levasseur",
+        "role": "VP Externe",
+        "image": "thomasl.jpeg"
+    },
+
+    {
+        "name": "Jade Puillet",
+        "role": "VP Communication",
+        "image": "jade.jpeg"
+    }, 
+
+    {
+        "name": "Jean-Vincent Ruiz",
+        "role": "VP Éducation",
+        "image": "no_photo.png"
+    }
+]
